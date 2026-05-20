@@ -1,43 +1,117 @@
-**CICLO DE VIDA DE ENGENHARIA DE USABILIDADE**
+# Ciclo de Vida em IHC
 
-![Ciclo de vida](imagens/ciclo_de_vida.png)
+## Modelo de Ciclo de Vida Escolhido
 
-1. **Características da Plataforma**  
-   
+| Item | Descrição |
+|---|---|
+| Modelo escolhido | Design Centrado no Usuário (DCU) |
+| Objetivo | Garantir que a aplicação seja desenvolvida considerando as necessidades, dificuldades e expectativas dos usuários |
+| Foco principal | Usabilidade, acessibilidade e experiência do usuário |
+| Justificativa | O projeto possui forte dependência de visualização de dados e interação com dashboards, tornando essencial compreender continuamente a experiência do usuário |
 
-| Característica | Descrição |
-| :---- | :---- |
-| Descrição do Software |  |
-| Descrição do Hardware |  |
-| LISTA DE Capacidades da Plataforma (com explicação) |  |
-| LISTA DE Restrições da Plataforma (com explicação) |  |
+---
 
-2. **Princípios Gerais do Projeto (INCREMENTAR TABELA)**     
+# Etapas do Ciclo de Vida
 
-| Nome | Descrição | Link |
-| :---- | :---- | :---- |
-| Descrição do Contexto | .  |  |
-| Lei Geral de Proteção de Dados (LGPD) \- Lei n.º 13.709/2018 | A LGPD é a legislação brasileira que regulamenta o tratamento de dados pessoais no Brasil. É importante para o projeto porque estabelece regras sobre como os dados dos usuários devem ser coletados, armazenados, processados e protegidos, garantindo sua privacidade e segurança. | [https://www.planalto.gov.br/ccivil\_03/\_ato2015-2018/2018/lei/l13709.htm](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) |
-| Lei n.º 10.098/2000 \- Lei da Acessibilidade |  Esta lei brasileira estabelece normas gerais e critérios básicos para a promoção da acessibilidade das pessoas com deficiência ou com mobilidade reduzida. É importante para o projeto porque define diretrizes para tornar produtos e serviços, incluindo interfaces de usuário, acessíveis a todos os usuários, independentemente de suas habilidades físicas ou cognitivas. | [https://www.planalto.gov.br/ccivil\_03/leis/l10098.htm](https://www.planalto.gov.br/ccivil_03/leis/l10098.htm) |
-| ABNT NBR ISO 9241 Ergonomia da interação humano-sistema |  Esta série de normas brasileiras, baseadas nas normas ISO 9241, fornece diretrizes e orientações para o design centrado no usuário de sistemas interativos, incluindo a concepção de interfaces de usuário. A parte 210 aborda o processo de design centrado no humano, enquanto a parte 11 fornece orientações específicas sobre usabilidade. Essas normas são importantes para o projeto porque estabelecem princípios e métodos para garantir que a interface do usuário atenda às necessidades e expectativas dos usuários. | [https://www.inf.ufsc.br/\~edla.ramos/ine5624/\_Walter/Normas/Parte%2011/iso9241-11F2.pdf](https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf) |
-|  | . |  |
+## 1. Identificação das Necessidades dos Usuários
 
-   
+| Aspecto | Descrição |
+|---|---|
+| Objetivo | Compreender os usuários, suas dificuldades e necessidades |
+| O que será analisado | Perfil do usuário, contexto de uso, dificuldades de navegação e interpretação de dados |
+| Técnicas utilizadas | Questionários, entrevistas e observação |
+| Resultado esperado | Levantamento de requisitos e necessidades da interface |
 
-3. **Metas de Usabilidade**
+---
 
-   1. **Qualitativo**
+## 2. Definição de Requisitos
 
-    
+### Requisitos Funcionais
 
+| Requisito | Descrição |
+|---|---|
+| RF01 | Visualizar gráficos ambientais |
+| RF02 | Filtrar dados por período |
+| RF03 | Comparar provedores de cloud computing |
+| RF04 | Explorar indicadores ambientais |
+| RF05 | Visualizar detalhes dos impactos ambientais |
 
-   2. **Quantitativo**  
-    
-| Metas | Porcentagem | Justificativa |
-| ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
-| **Total** | **100%** |  |
+---
+
+### Requisitos Não Funcionais
+
+| Requisito | Descrição |
+|---|---|
+| RNF01 | Interface intuitiva |
+| RNF02 | Fácil navegação |
+| RNF03 | Responsividade |
+| RNF04 | Boa performance |
+| RNF05 | Acessibilidade |
+
+---
+
+# 3. Criação de Protótipos
+
+| Aspecto | Descrição |
+|---|---|
+| Objetivo | Validar ideias antes da implementação |
+| Tipos de protótipos | Baixa, média e alta fidelidade |
+| Ferramentas utilizadas | Figma e React.js |
+| Benefício | Redução de erros antes da implementação final |
+
+---
+
+# 4. Avaliação com Usuários
+
+| Aspecto | Descrição |
+|---|---|
+| Objetivo | Identificar problemas de usabilidade |
+| O que será avaliado | Navegação, compreensão visual e facilidade de uso |
+| Técnicas utilizadas | Testes de usabilidade, observação e coleta de feedback |
+| Resultado esperado | Melhorias na interface e na experiência do usuário |
+
+---
+
+# 5. Implementação da Interface
+
+| Aspecto | Descrição |
+|---|---|
+| Objetivo | Desenvolver a versão funcional da aplicação |
+| Frontend | React.js |
+| Backend | Node.js |
+| Banco de dados | PostgreSQL |
+| Visualização de dados | Chart.js ou Recharts |
+
+---
+
+# 6. Iteração e Melhorias
+
+| Aspecto | Descrição |
+|---|---|
+| Objetivo | Evoluir continuamente a aplicação |
+| Melhorias possíveis | Ajustes de usabilidade, novas funcionalidades e correções |
+| Base para melhorias | Feedback dos usuários |
+| Característica do processo | Iterativo |
+
+---
+
+# Relação do Ciclo de Vida com o Projeto
+
+| Aspecto | Aplicação no projeto |
+|---|---|
+| Visualização de dados | Necessidade de interfaces claras e intuitivas |
+| Interação do usuário | Navegação simples e eficiente |
+| Objetivo do sistema | Facilitar interpretação de dados ambientais |
+| Importância do DCU | Garantir foco constante nas necessidades do usuário |
+
+---
+
+# Benefícios do Modelo Escolhido
+
+| Benefício | Impacto |
+|---|---|
+| Melhor experiência do usuário | Interfaces mais intuitivas |
+| Redução de erros | Menor dificuldade de navegação |
+| Facilidade de aprendizado | Melhor compreensão da interface |
+| Maior acessibilidade | Inclusão de diferentes perfis de usuários |
+| Melhor usabilidade | Interação mais eficiente |
